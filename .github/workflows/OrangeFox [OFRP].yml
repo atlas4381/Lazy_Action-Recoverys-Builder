@@ -1,7 +1,7 @@
 name: OrangeFox [OFRP]
 
-on:
-  workflow_dispatch:
+    on:
+    workflow_dispatch:
     inputs:
       SYNC_URL:
         description: 'SYNC_URL'
