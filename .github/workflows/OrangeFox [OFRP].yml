@@ -76,7 +76,7 @@ jobs:
         sudo bash setup/install_android_sdk.sh
       working-directory: ${{ steps.pwd.outputs.workspace-folder }}
 
-       - name: Install OpenJDK
+    - name: Install OpenJDK
       uses: actions/setup-java@v3
       with:
         distribution: 'zulu'
