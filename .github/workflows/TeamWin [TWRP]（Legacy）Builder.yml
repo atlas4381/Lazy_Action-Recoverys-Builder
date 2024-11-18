@@ -146,6 +146,8 @@ jobs:
 
     - name: Building recovery
       run: |
+        sed 's/PROP_VALUE_MAX = 91/PROP_VALUE_MAX = 128/g' build/tools/post_process_props.py
+        sed 's/#define PROP_VALUE_MAX = 92/#define PROP_VALUE_MAX = 128/g' bionic/libc/include/sys/system_properties.h
         source build/envsetup.sh
         export ALLOW_MISSING_DEPENDENCIES=true
         lunch ${{ github.event.inputs.MAKEFILE_NAME }}-eng && make clean && make ${{ github.event.inputs.BUILD_TARGET }}image -j$(nproc --all)
