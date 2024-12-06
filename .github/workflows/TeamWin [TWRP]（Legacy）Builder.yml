@@ -22,7 +22,7 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/s21/eb12_v30_xtq_s21_00_cn_zx_zty_435_256x16b'
+        default: 'device/tk/sl8541e_1h10'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -32,11 +32,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'eb12_v30_xtq_s21_00_cn_zx_zty_435_256x16b'
+        default: 'sl8541e_1h10'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'omni_eb12_v30_xtq_s21_00_cn_zx_zty_435_256x16b'
+        default: 'omni_sl8541e_1h10'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
