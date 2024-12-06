@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/wwaaafa/android_device_sprd_s21_watch'
+        default: 'https://github.com/wwaaafa/SPD-watch-twrp-tree'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'main'
+        default: 'DW99'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
