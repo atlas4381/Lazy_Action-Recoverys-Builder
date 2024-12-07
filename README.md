@@ -1,8 +1,4 @@
 TeamWin [TWRP]（Legacy) 8.1 BRANCH working
-TeamWin [TWRP] 14 BRANCH working
-OrangeFox [OFRP] error
-PitchBlack [PBRP] not test
-SkyHawk [SHRP] not test
 ## Lazy Action Recovery Builder |TWRP / PBRP / OFRP / SHRP|
 Compile your first custom recovery via Github Actions - with ldcheck setup. This workflow supports both TWRP or PBRP or OFRP or SHRP, you can use it with other custom recovery as well, but you have to modify the yaml config yourself.
 
