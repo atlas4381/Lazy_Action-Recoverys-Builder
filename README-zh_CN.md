@@ -1,0 +1,8 @@
+[WIP]
+[English](README-en_US.md)
+通过[Github Actions](https://github.com/features/actions)使用[twrpdtgen](https://github.com/twrpdtgen/twrpdtgen)生成的设备树来构建Recovery
+bug修复
+1.无ADB
+解包构建出的recovery和官方recovery，将官方recovery根目录中init.*.rc文件复覆盖构建出的recovery根目录中init.*.rc
+2.无法挂载Data
+可能是因为设备问题或没有设置解密功能（一部分可通过格式化data来暂时解决，成功进入系统后再次无法挂载）
